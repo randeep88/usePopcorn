@@ -1,0 +1,32 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.bg {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: white;
+  background: blue;
+  width: 30px;
+  height: 30px;
+  border-radius: 50%;
+}
+
+.nonbg {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border: 1px solid blue;
+  width: 30px;
+  height: 30px;
+  border-radius: 50%;
+}
+
+.btn {
+  text-align: center;
+  background: blue;
+  border: none;
+  color: white;
+  border-radius: 3px;
+}
